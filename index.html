@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+
+<style>
+
+
+       p,  
+        h3 {
+            padding: 5px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 2, 1fr;
+            grid-template-rows: 2, 1vh;
+            grid-template-areas: 
+            "picture name"
+            "information information ";
+            gap: 5px;
+
+        }
+        .picture {
+            background-color:ghostwhite;
+        }
+        .name {
+            background-color:floralwhite;
+        }
+
+        .information {
+            background-color:aqua;
+        }
+
+
+
+
+
+
+
+        .picture {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .name {
+            grid-column: 2/2;
+            grid-row: 1/2;
+
+                }       
+         .information {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+       </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <center><h2>Aira Jabagat </h2></center>
+        </div>
+
+
+        <div class="picture">
+            <img src= "aira.jpg" width="500" height="300">
+
+        </div>
+        <div class="information">
+            <center><h3> HELLOW! Im Aira D.Jabagat 20 years old from oringao kabanakalan city negros occidental. we have five siblings and Im, a fourth of our siblings. I finished my study at florentino Galang sr.National High School And now Im, studying at central phlipines state university Batchelor of science in information Technology. I take this course beacuse i want to be programmer someday. my goal in my life is to fineshed my study and getting a permanent work beacuse i want to help my family financial needs. </h3></center>
+    </div>
+     </div>
+    
+</body>
+</html>
